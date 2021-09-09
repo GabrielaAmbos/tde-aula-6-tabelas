@@ -1,0 +1,21 @@
+body {
+    margin: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+table {
+    font-family: 'Times New Roman', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+
+#grupos{
+    text-align: justify;
+}
+
