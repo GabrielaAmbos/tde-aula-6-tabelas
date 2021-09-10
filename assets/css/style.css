@@ -8,6 +8,7 @@ table {
     font-family: 'Times New Roman', sans-serif;
     border-collapse: collapse;
     width: 100%;
+    padding: 7px;
   }
 
 th, td {
@@ -15,7 +16,31 @@ th, td {
     border-bottom: 1px solid #ddd;
   }
 
+th{
+  color: grey;
+  }
+
 #grupos{
     text-align: justify;
+}
+
+.primeiroLugar{
+  border-left: 3px solid blue;
+}
+
+.segundoLugar{
+    border-left: 3px solid orangered;
+}
+
+#imgLogo{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 60% !important;
+}
+
+#imgCheck{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 60% !important;
 }
 
