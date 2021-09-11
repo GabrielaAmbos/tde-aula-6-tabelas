@@ -1,7 +1,7 @@
 body {
     margin: 300px;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 table {
@@ -20,16 +20,20 @@ th{
   color: grey;
   }
 
-#grupos{
+.grupos{
     text-align: justify;
 }
 
+.tabela{
+  overflow-x: auto;
+}
+
 .primeiroLugar{
-  border-left: 3px solid blue;
+  border-left: 5px solid blue;
 }
 
 .segundoLugar{
-    border-left: 3px solid orangered;
+    border-left: 5px solid orangered;
 }
 
 #imgLogo{
@@ -42,5 +46,19 @@ th{
     max-width: 25px;
     max-height: 25px;
     border-radius: 60% !important;
+}
+
+#imgGols{
+  max-width: 20px;
+  max-height: 20px;
+  border-radius: 60% !important;
+}
+
+.nomeClubeGols{
+  color: grey;
+}
+
+.gols{
+  overflow-x: auto;
 }
 
