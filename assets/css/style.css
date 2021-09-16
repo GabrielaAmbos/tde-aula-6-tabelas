@@ -1,23 +1,48 @@
 body {
-    margin: 300px;
-    margin-top: 50px;
+    margin: 400px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     text-align: left;
+    background-color: #e2e2e2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+
 table {
-    font-family: 'Times New Roman', sans-serif;
     border-collapse: collapse;
     width: 100%;
     padding: 7px;
-  }
+}
+
 
 th, td {
     padding: 8px;
+    padding-left: 24px;
     border-bottom: 1px solid #ddd;
-  }
+}
 
 th{
   color: grey;
+}
+
+
+.cabecalho{
+  background-color: #162E58;
+  min-height: 100px;
+  padding: 20px 50px 10px 50px;
+}
+
+#tituloDoCabecalho{
+  color: white;
+  float: left;
+  min-width: 50%;
+  font-size: 16px;
+  text-align: left;
+}
+
+#classificacao{
+  background-color: white;
+  overflow-x: auto;
   }
 
 .grupos{
@@ -29,11 +54,11 @@ th{
 }
 
 .primeiroLugar{
-  border-left: 5px solid blue;
+  border-left: 8px solid blue;
 }
 
 .segundoLugar{
-    border-left: 5px solid orangered;
+    border-left: 8px solid orangered;
 }
 
 #imgLogo{
@@ -58,7 +83,64 @@ th{
   color: grey;
 }
 
-.gols{
+#gols{
+  background-color: white;
   overflow-x: auto;
 }
 
+.partidas{
+  background-color: white;
+  overflow-x: auto;
+}
+
+#oitavasDeFinal{
+  width: 100%;
+}
+
+#oitavasDeFinal td, #oitavasDeFinal tr {
+  border: 3px solid #e2e2e2;
+}
+
+.button{
+  position: relative;
+  text-decoration: none;
+  background-color: #162E58;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h2, h3 {
+  padding-left: 16px;
+}
+
+.placar{
+  float: left; 
+  width: 50%;
+}
+
+.final{
+  float: left; 
+  width:25%;
+}
+
+.fim{
+  color: grey;
+  text-align: center;
+}
+
+.diaDaSemana{
+  text-align: center;
+}
+
+.gols span{
+  float: right;
+  margin-right: 40px;
+}
+
+.gols{
+  float: left; 
+  width:25%;
+}
